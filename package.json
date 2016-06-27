@@ -1,0 +1,22 @@
+{
+  "name": "trello-deploy-list-parser",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/noidontdig/trello-deploy-list-parser.git"
+  },
+  "author": "noidontdig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noidontdig/trello-deploy-list-parser/issues"
+  },
+  "homepage": "https://github.com/noidontdig/trello-deploy-list-parser",
+  "dependencies": {
+    "trello": "^0.5.1"
+  }
+}
