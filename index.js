@@ -1,6 +1,8 @@
 var http = require('http');
 var Trello = require('trello');
-var trello = new Trello('5432cca712663538d2919e8eb8f85177', '48e74f0a3d2fbdc36ceff32fcc87b2ddbc0aae6af4430a7e91b1d70bf27dea6d');
+// To get a new token (2nd param), use the following with the key (1st param)
+// https://trello.com/1/connect?key=...&name=MyApp&response_type=token
+var trello = new Trello('5432cca712663538d2919e8eb8f85177', '0b08460f3e00c9bacaf4085e6969dfaf0b4b57932e0b6373f56f77263aa0961c');
 const PORT = 3000;
 
 function handleRequest (req, res) {
