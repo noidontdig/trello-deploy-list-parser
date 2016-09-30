@@ -5,6 +5,7 @@ Setup:
 ```
 npm install trello
 ```
+Authorize access to your account by using url in index.js to get a new token
 
 Run:
 
